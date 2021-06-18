@@ -14,5 +14,7 @@ function fn() {
   } else if (env == 'e2e') {
     // customize
   }
+
+  config = karate.callSingle('classpath:setup.feature', config);
   return config;
 }
