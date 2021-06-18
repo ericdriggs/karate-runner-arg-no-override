@@ -27,7 +27,11 @@ public class RunnerArgTest {
         assertEquals("after", runnerResponse.get("foo"));
     }
 
+
     @Test
+    /**
+     * passes
+     */
     public void runnerNoArgTest() {
 
         Map<String, Object> runnerResponse =
@@ -43,6 +47,10 @@ public class RunnerArgTest {
 
 
     @Test
+    /**
+     * passes
+     */
+
     public void runnerNewArgTest() {
 
         Map<String, Object> runnerResponse =
