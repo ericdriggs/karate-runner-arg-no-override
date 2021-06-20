@@ -15,6 +15,8 @@ function fn() {
     // customize
   }
 
+  //note: setting variable in js *would* allow override. only broken when set in feature
+  //var foo = 'bar'
   config = karate.callSingle('classpath:setup.feature', config);
   return config;
 }
